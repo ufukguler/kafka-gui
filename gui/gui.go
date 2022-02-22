@@ -30,7 +30,6 @@ func Run() {
 	c := &Dashboard{}
 	c.app = app.New()
 	c.app.Settings().SetTheme(theme.DefaultTheme())
-	c.app.SetIcon(icon)
 	c.loadUI()
 	c.app.Run()
 }

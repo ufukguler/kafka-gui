@@ -14,3 +14,9 @@ How does it look like?
 Installation
 
 https://developer.fyne.io/started/cross-compiling#installation
+
+
+```
+go get fyne.io/fyne/v2/cmd/fyne
+fyne install -icon Icon.png
+```
